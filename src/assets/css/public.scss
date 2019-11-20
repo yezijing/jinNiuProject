@@ -1,0 +1,303 @@
+.working {
+    .tabs {
+      border-bottom: 1px solid #ddd;
+      .item {
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #303133;
+        border-bottom: 2px solid transparent;
+        margin-right: 28px;
+      }
+      .active {
+        border-bottom: 2px solid #1890ff;
+        color: #1890ff;
+      }
+    }
+    .navtitle {
+      display: none;
+    }
+    .content-wrap {
+      padding: 0 !important;
+    }
+    .jobsharing {
+      margin-top: 10px;
+    }
+}
+fieldset {
+    border: 1px solid #ccc;
+    legend {
+      color: #000;
+      font-size: 16px;
+      padding: 0 8px;
+      margin-left: 30px;
+      font-weight: bold;
+      font-family: "微软雅黑";
+    }
+}
+.el-table {
+    .title-ellipsis {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-align: left;
+      overflow: hidden;
+    }
+    tr.nobaosong {
+      .baobtn {
+        display: none;
+      }
+    }
+    th {
+      padding: 5px 0;
+      background: #1890ff;
+      color: #fff;
+      text-align: center;
+      font-weight: normal;
+    }
+    th.is-leaf {
+      border-color: #ddd;
+    }
+    td {
+      text-align: center;
+      padding: 5px 0;
+      .mark {
+        width: 8px;
+        height: 8px;
+        background: #078182;
+        border-radius: 50%;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .cell {
+        word-wrap: break-word;
+        white-space: pre-line;
+        .el-button {
+          font-size: 13px;
+        }
+      }
+      .editbtns {
+        position: relative;
+        .nomask {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 9;
+          display: none;
+        }
+      }
+    }
+    .noedit {
+      .btn0 {
+        color: #999;
+      }
+      .stateSelect .el-input__inner {
+        color: #999;
+      }
+      .nobtn {
+        display: none;
+      }
+      .editbtns {
+        .nomask {
+          display: block;
+        }
+      }
+    }
+    .lagbtn {
+      .btn1 {
+        color: #999;
+      }
+    }
+    .red {
+      .mark {
+        background: #f00;
+      }
+    }
+    .yellow {
+      .mark {
+        background: #fbe804;
+      }
+    }
+    .gray {
+      .mark {
+        background: #999;
+      }
+    }
+    .zhou {
+      .mark {
+        background: #364e98;
+      }
+    }
+    .zh {
+      .mark {
+        background: #7c1d77;
+      }
+    }
+    .unit-item {
+      p {
+        cursor: pointer;
+      }
+    }
+}
+#elmain {
+    padding: 10px;
+    .mwrap {
+      .navtitle {
+        border-bottom: 1px solid #ddd;
+        span {
+          color: #1890ff;
+          font-size: 14px;
+          border-bottom: 2px solid #1890ff;
+          display: inline-block;
+          height: 40px;
+          line-height: 40px;
+          margin-right: 40px;
+          box-sizing: border-box;
+        }
+      }
+      .content-wrap {
+        background: #fff;
+        padding: 5px 15px 15px;
+      }
+    }
+}
+.toolbar {
+    margin: 20px 0;
+    .toolbtns {
+      display: flex;
+      justify-content: space-between;
+      .el-form-item {
+        margin-bottom: 0;
+      }
+    }
+    .el-form--inline {
+      .zt {
+        .el-form-item__content {
+          width: 100px;
+        }
+      }
+      .ld {
+        .el-form-item__content {
+          width: 120px !important;
+        }
+      }
+      .lb {
+        .el-form-item__content {
+          width: 120px;
+        }
+      }
+      .xlb {
+        .el-form-item__content {
+          width: 100px;
+        }
+      }
+    }
+}
+
+// 规则
+.rule-dialog {
+  .el-input-group__append,
+  .el-input-group__prepend {
+    color: #222;
+    background: transparent;
+    border: 0;
+    padding: 0 5px;
+  }
+  .el-form-item {
+    .el-input {
+      width: 220px;
+    }
+  }
+  .day {
+    .el-input {
+      width: 150px;
+    }
+  }
+}
+
+.batch-setting .el-checkbox.isexist{
+  .name{color: #f00;}
+  .el-checkbox__input.is-checked .el-checkbox__inner, 
+  .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color: #f00;
+    border-color: #f00;
+  }
+}
+
+.noeditbtn{display: none;}
+
+.leader-unit{
+  .datas{
+    background: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,.1);
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .list{
+      min-width: 160px;
+      text-align: center;
+      .t1{
+        color: #333;font-size: 24px;
+        margin-bottom: 5px;
+      }
+      .t2{
+        font-size: 14px;
+        color: #333;
+        span{
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  .box-card {
+    background: #fff;
+    .el-card__header {
+      padding: 10px 15px;
+      border-bottom: 1px solid #ddd;
+    }
+    .card-title {
+      color: #222;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .databox{
+      height: 400px;
+    }
+  }
+}
+
+.report-dialog {
+  .report-wrap{
+    display: flex;
+    align-items: stretch;
+    fieldset{
+      height: 100%;
+    }
+  }
+  .rbox {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title {
+    .el-select {
+      width: 100%;
+      display: block;
+    }
+  }
+  .upbox {
+    padding: 0 20px;
+  }
+  .el-form-item.lastitem {
+    margin-bottom: 0;
+  }
+}
+
+.el-table__column-filter-trigger i{color: #fff;}
+.el-table th>.cell.highlight {
+  color: #fff;
+}
+
